@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'AlbulaLight';
+    src: url('/fonts/albula/Albula-Light.ttf') format('truetype');
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'AlbulaRegular';
+    src: url('/fonts/albula/Albula-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'AlbulaMedium';
+    src: url('/fonts/albula/Albula-Medium.ttf') format('truetype');
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'AlbulaSemiBold';
+    src: url('/fonts/albula/Albula-SemiBold.ttf') format('truetype');
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'AlbulaBold';
+    src: url('/fonts/albula/Albula-Bold.ttf') format('truetype');
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'AlbulaExtraBold';
+    src: url('/fonts/albula/Albula-ExtraBold.ttf') format('truetype');
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'AlbulaHeavy';
+    src: url('/fonts/albula/Albula-Heavy.ttf') format('truetype');
+    font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-orb {
+    background: radial-gradient(circle at 70% 70%, #95C6D7, #ffffff00 60%), 
+                linear-gradient(135deg, #6C9191, #84A8A9, #E1F0EF);
+    background-size: 200% 200%;
+    animation: moveLightOrb 6s infinite alternate;
+    position: relative;
+}
+
+@keyframes moveLightOrb {
+    0% {
+        background-position: 40% 40%;
+    }
+    50% {
+        background-position: 60% 60%;
+    }
+    100% {
+        background-position: 40% 60%;
+    }
+}
+
+@keyframes gemini {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-gemini {
+    animation: gemini 1s ease-out forwards;
+  }
+  
