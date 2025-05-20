@@ -50,6 +50,6 @@ The platform’s mental health detection system is a standout feature, consistin
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributors
+- **Sparsh Jaggi** - [GitHub](https://github.com/sparshjaggi07)
 - **Aman Kumar** - [GitHub](https://github.com/trulyaman25)
 - **Ansh Shrivastav** - [GitHub](https://github.com/ansh-d23)
-- **Sparsh Jaggi** - [GitHub](https://github.com/sparshjaggi07)
